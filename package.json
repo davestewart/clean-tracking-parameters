@@ -7,10 +7,14 @@
     "test": "tests"
   },
   "scripts": {
-    "postinstall": "npm run-script build",
+    "prepublish": "npm run-script build",
     "build": "node ./tools/build.js",
     "test": "jest"
   },
+  "files": [
+    "index.js",
+    "params.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/likelylogic/clean-utm.git"
