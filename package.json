@@ -1,0 +1,29 @@
+{
+  "name": "clean-utm",
+  "version": "1.0.0",
+  "description": "Cleans common tracking params from URLs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "postinstall": "npm run-script build",
+    "build": "node ./tools/build.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likelylogic/clean-utm.git"
+  },
+  "author": "Dave Stewart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/likelylogic/clean-utm/issues"
+  },
+  "homepage": "https://github.com/likelylogic/clean-utm#readme",
+  "devDependencies": {
+    "tracking-query-params-registry": "git:github.com/davestewart/tracking-query-params-registry.git",
+    "csv-parser": "^3.0.0",
+    "jest": "^27.1.0"
+  }
+}
