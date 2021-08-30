@@ -13,7 +13,7 @@ function readCsv (path) {
 }
 
 function writeJson (path, data) {
-  const content = JSON.stringify(data)
+  const content = JSON.stringify(data, null, '  ')
   fs.writeFile(path, content, err => {
     if (err) {
       console.error(err)

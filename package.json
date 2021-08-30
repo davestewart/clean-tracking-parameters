@@ -1,6 +1,6 @@
 {
   "name": "clean-utm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cleans common tracking params from URLs",
   "main": "index.js",
   "directories": {
@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/likelylogic/clean-utm#readme",
   "devDependencies": {
-    "tracking-query-params-registry": "git:github.com/davestewart/tracking-query-params-registry.git",
     "csv-parser": "^3.0.0",
-    "jest": "^27.1.0"
+    "jest": "^27.1.0",
+    "tracking-query-params-registry": "git://github.com/davestewart/tracking-query-params-registry.git"
   }
 }
