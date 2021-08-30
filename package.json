@@ -12,8 +12,9 @@
     "test": "jest"
   },
   "files": [
+    "params.json",
     "index.js",
-    "params.json"
+    "*.d.ts"
   ],
   "repository": {
     "type": "git",
