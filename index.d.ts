@@ -1,1 +1,1 @@
-export function cleanUtm(url: string | URL): string;
+export function cleanUtm(url: string): string;
